@@ -6,7 +6,7 @@ interface TodoItemProps {
 export default function TodoItem({todo, onCompletedChange}: TodoItemProps) {
     return(
         <div>
-            <label className="flex items-center gap-2 border rounded-md p-2 border-black-400 bg-white hover:bg-green-5w0">
+            <label className="flex items-center  border rounded-md p-2 border-black-400 bg-white hover:bg-green-5w0">
                 <input 
                 type="checkbox"
                 checked={todo.completed}
